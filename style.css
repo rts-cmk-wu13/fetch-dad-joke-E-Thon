@@ -1,0 +1,19 @@
+body {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.jokes {
+    margin: 30rem auto;
+    width: fit-content;
+    background-image: linear-gradient(180deg, rgb(167, 39, 81) 20%,rgb(243, 109, 154) 80%, rgb(243, 162, 189));
+    text-align: center;
+    padding: 3rem;
+    font-size: 4rem;
+    border: 6px double rgba(255, 255, 255, 0.8);
+    color: #FFFFFF;
+    font-weight: 900;
+    -webkit-text-stroke: .7px #000000;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.3) inset;
+}
