@@ -17,7 +17,7 @@ fetch("https://icanhazdadjoke.com/", {
     //ekstra for fun:
     let header = document.createElement("h1");
     header.innerHTML = `
-    Dad Jokes
+    <a href="index.html">Dad Jokes</a>
     `
 
     body.append(header, jokeElm);
