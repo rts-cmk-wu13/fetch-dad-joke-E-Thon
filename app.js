@@ -12,8 +12,13 @@ fetch("https://icanhazdadjoke.com/", {
 
     jokeElm.innerHTML = `
     ${data.joke}
+    `;
+    
+    //ekstra for fun:
+    let header = document.createElement("h1");
+    header.innerHTML = `
+    Dad Jokes
     `
 
-
-    body.appendChild(jokeElm);
+    body.append(header, jokeElm);
   });
