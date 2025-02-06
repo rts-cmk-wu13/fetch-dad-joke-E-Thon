@@ -10,9 +10,11 @@ h1 {
     text-transform: uppercase;
     font-size: 5rem;
     -webkit-text-stroke: 3px #000000;
-    color: #FFFFFF;
     box-shadow: 0 5px 10px 2px rgba(167, 39, 81, 0.4);
-
+}
+h1 a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .jokes {
     margin: 5rem auto 30rem;
