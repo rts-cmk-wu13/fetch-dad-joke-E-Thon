@@ -19,6 +19,6 @@ fetch("https://icanhazdadjoke.com/", {
     header.innerHTML = `
     <a href="index.html">Dad Jokes</a>
     `
-
+    // tilføjelse af elementer til body:
     body.append(header, jokeElm);
   });
